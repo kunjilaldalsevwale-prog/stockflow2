@@ -4,9 +4,8 @@
   "description": "StockFlow Inventory Management",
   "main": "server.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
     "start": "node server.js",
-    "install:all": "npm install && cd frontend && npm install"
+    "build": "cd frontend && npm install && npm run build"
   },
   "dependencies": {
     "@seald-io/nedb": "^4.0.4",
