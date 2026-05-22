@@ -2,7 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const Datastore = require('@seald-io/nedb');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
+const path = require('path'); 
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, 'data');
 const multer = require('multer');
 const fs = require('fs');
 
